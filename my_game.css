@@ -1,0 +1,39 @@
+td {
+    height: 100px;
+    width: 100px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(57, 214, 57);
+    color: rgb(52, 47, 49);
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.continer {
+    font-size: larger;
+}
+
+table {
+    border-color: antiquewhite;
+    border: solid;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
